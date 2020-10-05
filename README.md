@@ -1,4 +1,4 @@
-# test
+# h
 def square
 ask for input
 calculate input*input
