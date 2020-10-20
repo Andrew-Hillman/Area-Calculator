@@ -1,11 +1,11 @@
 def square():
-    side = input("Enter the side length of the square: ")
+    side = int(input("Enter the side length of the square: "))
     Squarea = side * side
     print("The area of the square is:", Squarea)
 
 def rectangle():
-    lengh = input ("Enter the lengthof the rectangle: ")
-    width = input ("Enter the width of the rectangle: ")
+    length = int(input ("Enter the length of the rectangle: "))
+    width = int(input ("Enter the width of the rectangle: "))
     area_of_rectangle= length * width
     print("The area of the rectangle is:", area_of_rectangle)
 
@@ -22,7 +22,7 @@ def triangle():
   
 def mainMenu():
     print("would you like to calculate for square (s), rectangle (r), triangle (t), or circle (c):")
-    UserChoice = raw_input()
+    UserChoice = input()
     print("input was "+ UserChoice)
     if (UserChoice == 's'):
         square()
@@ -37,4 +37,3 @@ def mainMenu():
 
 mainMenu()
 
- 
