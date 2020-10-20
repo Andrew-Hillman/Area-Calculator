@@ -21,9 +21,7 @@ def triangle():
     print("The area of the triangle is:", area_of_triangle)
   
 def mainMenu():
-    print("would you like to calculate for square (s), rectangle (r), triangle (t), or circle (c):")
-    UserChoice = input()
-    print("input was "+ UserChoice)
+    UserChoice = input("would you like to calculate for square (s), rectangle (r), triangle (t), or circle (c):")
     if (UserChoice == 's'):
         square()
     elif (UserChoice == 'r'):
