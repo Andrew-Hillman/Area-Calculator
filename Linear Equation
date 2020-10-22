@@ -1,0 +1,5 @@
+def Linear_Equations_Formula():
+	y = int(input("Enter the y value"))
+	x = int(input("Enter the x value"))
+	X = ("()x")
+	Y = ("()y")
