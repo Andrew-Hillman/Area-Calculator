@@ -21,3 +21,4 @@ def Linear_Equations():
         equation = (b2 - b1) / (m1 - m2)
         print("The solution is y:",  equation)
 logo()
+Linear_Equations()
